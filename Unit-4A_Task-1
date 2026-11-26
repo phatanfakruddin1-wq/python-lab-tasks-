@@ -1,0 +1,15 @@
+student = {
+    "name": "fakruddin",
+    "age": 18,
+    "course": "B.Tech"
+}
+
+print("Original Student Details:")
+print(student)
+
+student["age"] = 19
+
+student["city"] = "Vijayawada"
+
+print("\nUpdated Student Details:")
+print(student)
